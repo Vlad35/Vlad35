@@ -1,0 +1,125 @@
+<style>
+  @media(min-width: 500px  min-height: 1024px) {
+    .container-1{
+      display: flex;
+      /*align-items: flex-start;*/
+      flex-direction: column;
+    }
+
+    .container-2{
+      display: flex;
+      /*align-items: flex-start;*/
+      flex-direction: row;
+    }
+  }
+  .container-1{
+    display: flex;
+    /*align-items: flex-start;*/
+    flex-direction: column;
+  }
+
+  .container-2{
+    display: flex;
+    /*align-items: flex-start;*/
+    flex-direction: row;
+  }
+  .container-1 div{
+    padding:10px;
+    border: 1px solid black;
+  }
+
+  .container-2 div{
+    padding:10px;
+    border: 1px solid black;
+  }
+  .box {
+    flex: 1;
+    background-color: yellowgreen;
+  }
+  .box-1  {
+    flex: 2;
+    background-color: red;
+  }
+
+  .box-2  {
+    flex: 2;
+    background-color: blue;
+  }
+  .box-3 {
+    flex: 1;
+    background-color: orange;
+  }  
+  .box-4 {
+    flex: 100%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid silver;
+    background-color: burlywood;
+  }
+  .box-5 {
+    flex: 4;
+    background-color: lightblue;
+  }
+</style>
+
+<div class = container-2>
+  <div class="box">
+    <img src="image.png" alt="There's no any picture"> 
+  </div>
+  <div class = "box-5"> 
+    <h1>Name</h1> 
+  </div>
+</div>
+
+
+<div class = "container-1" >
+  <div class="box-1">
+    <h3>Box 1</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur rerum, nulla similique itaque eligendi expedita, quae, voluptates ut veritatis eveniet iusto natus officiis, ad. Ipsam officia voluptas, magnam quidem dolorem?</p>
+  </div>
+  <div class="box-2">
+    <h3>Box 2</h3>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, id, voluptatibus. Debitis dolores a reiciendis, dolorem praesentium laboriosam facere nemo, iure deleniti alias non nobis voluptas neque? Ab reiciendis, accusamus.
+    </p>
+  </div>
+  <div class="box-3">
+    <h3>Box 3</h3>
+    <p>
+      Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Non sit accusamus vitae recusandae ipsa minus odio corrupti quibusdam doloribus impedit alias hic corporis ex ratione similique facere, inventore expedita ipsam?
+    </p>
+  </div>
+  <form action="#" method="get">
+    <div>
+      <input type = "text" name = "Username" value = "Write here:">
+      <input type = "password" name = "Userpass" value = "">
+    </div>
+  </form>
+  <h4>Оценки за первый семестр ФКТиПМ:</h4>
+      <table border = 2px>
+         <tr>
+            <td>60</td> 
+            <td>65</td>
+            <td>70</td>
+            <td>75</td>
+            <td>80</td>
+         </tr>
+         <tr>
+            <td>61</td>
+            <td>66</td>
+            <td>71</td>
+            <td>76</td>
+            <td>81</td>
+         </tr>
+         <tr>
+            <td>62</td>
+            <td>67</td>
+            <td>72</td>
+            <td>77</td>
+            <td>79</td>
+         </tr>
+      </table>
+  <footer class = "box-4">
+     (c) Сергей Синица 2019.
+  </footer>
+</div>
